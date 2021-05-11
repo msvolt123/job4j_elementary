@@ -6,21 +6,16 @@ import javax.swing.*;
 public class Converter {
 
     public static int rubleToEuro (int value) {
-        int rsl = value / 70;
-        return rsl;
+        return value / 70;
     }
-
     public static int rubleToDollar (int value) {
-        int rsl = value / 60;
-        return rsl;
+        return value / 60;
     }
     public static int dollarToRuble (int value) {
-        int rsl = 60 * value;
-        return rsl;
+        return 60 * value;
     }
     public static int euroToRuble (int value) {
-        int rsl = 70 * value;
-        return rsl;
+        return 70 * value;
     }
 
     public static void main(String[] args) {
