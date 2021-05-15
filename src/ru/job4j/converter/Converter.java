@@ -5,16 +5,19 @@ import javax.swing.*;
 
 public class Converter {
 
-    public static int rubleToEuro (int value) {
+    public static int rubleToEuro(int value) {
         return value / 70;
     }
-    public static int rubleToDollar (int value) {
+
+    public static int rubleToDollar(int value) {
         return value / 60;
     }
-    public static int dollarToRuble (int value) {
+
+    public static int dollarToRuble(int value) {
         return 60 * value;
     }
-    public static int euroToRuble (int value) {
+
+    public static int euroToRuble(int value) {
         return 70 * value;
     }
 
