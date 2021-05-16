@@ -39,7 +39,7 @@ public class Converter {
         System.out.println("200 rubles are " + dollar + " dollar.");
 
         int in2 = 12;
-        int expected2 = 721;
+        int expected2 = 720;
         int out2 = Converter.dollarToRuble(in2);
         boolean passed2 = expected2 == out2;
         System.out.println("12 dollars are 720. Test result : " + passed2);
