@@ -7,7 +7,7 @@ public class Board {
                 if ((row + cell) % 2 == 0) {
                     System.out.print("X");
                 } else {
-                    System.out.println(" ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();
