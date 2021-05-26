@@ -2,11 +2,11 @@ package ru.job4j.loop;
 
 public class Mortgage {
     public static int year(double amount, double salary, double percent) {
-        int year = 1;
-        double loanDebt = amount + (amount * percent) / 100;
-        while (salary < loanDebt) {
+        int year = 0;
+        while (amount > 0) {
+            amount += amount * (percent / 100);
+            amount -= salary;
             year++;
-            loanDebt = (loanDebt - salary) + (loanDebt - salary) * (percent) / 100;
 
         }
 
