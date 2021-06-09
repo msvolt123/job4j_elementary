@@ -9,6 +9,6 @@ public class ChessBoard {
     }
 
     public static void main(String[] args) {
-        System.out.println(ChessBoard.way(2, 6, 4, 10));
+        System.out.println(ChessBoard.way(6, 7, 1, 2));
     }
 }
