@@ -1,6 +1,4 @@
-package ru.job4j.condition;
-
-import com.sun.source.tree.BreakTree;
+package ru.job4j.exercises;
 
 public class ChessBoard {
     public static int way(int x1, int y1, int x2, int y2) {
